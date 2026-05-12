@@ -37,9 +37,9 @@ Adafruit_SHT4x sht40;
 HX711 scale[MAX_LOAD_CELLS];
 
 const char* ssid = "eduroam";
-const char* username = "bi6griot";
-const char* password = "hxzkr2cr";
-const char* scriptURL = "https://script.google.com/macros/s/AKfycbyhvDE-Edpsl-rZxVkHQE7Kan_Hx8Rm-IuzFtCrkONl6G3_mQAtkRdXUSrLsLrD_IWEoA/exec";
+const char* username = "USER";
+const char* password = "PASS";
+const char* scriptURL = "Google URL";
 
 int current_page = 0;
 const int TOTAL_PAGES = 12;  // 0=Temp,1=RH,2–11=LC A–L(ตัด D,E แล้ว)
